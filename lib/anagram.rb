@@ -25,3 +25,4 @@ class Anagram
     # anagrams
   end
 end
+binding.pry
