@@ -28,7 +28,7 @@ class Anagram
 
 def match(array)
   # if @word.split("").sort == array.each{|x| x.to_s.split("").sort}
-  # binding.pry
+  binding.pry
   anagrams = []
   array.each do |x|
     if word.split("").sort == x.split("").sort
