@@ -12,7 +12,7 @@ class Anagram
     # binding.pry
     # if @word.split("").sort == array.each{|x| x.to_s.split("").sort}
     # binding.pry
-    array.any? do |x|
+    array.detect do |x|
       if word.split("").sort == x.split("").sort
         x
       else
