@@ -28,14 +28,14 @@ class Anagram
 
 def match(array)
   # if @word.split("").sort == array.each{|x| x.to_s.split("").sort}
-  # binding.pry
-  anagrams = []
-  array.each do |x|
-    if word.split("").sort == x.split("").sort
-      anagrams << x
-    end
-  end
-  anagrams
+  # # binding.pry
+  # anagrams = []
+  # array.each do |x|
+  #   if word.split("").sort == x.split("").sort
+  #     anagrams << x
+  #   end
+  # end
+  # anagrams
 end
 
 end
