@@ -37,7 +37,6 @@ def match(array)
        x.reject
     end
   end
-  binding.pry
   anagrams
 end
 
