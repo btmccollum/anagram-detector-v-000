@@ -41,5 +41,5 @@ def match(array)
 end
 
 end
-binding.pry
+# binding.pry
   # array.reject {|x| word.split("").sort != x.split("").sort}
