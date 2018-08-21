@@ -17,8 +17,6 @@ class Anagram
       if word.split("").sort == x.split("").sort
         # anagrams << x
         x
-      else
-        nil
       end
     end
     # anagrams
