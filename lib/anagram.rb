@@ -18,7 +18,7 @@ class Anagram
         # anagrams << x
         x
       else
-         delete
+         x.reject
       end
     end
     # anagrams
