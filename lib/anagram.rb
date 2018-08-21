@@ -16,7 +16,7 @@ class Anagram
       if word.split("").sort == x.split("").sort
         x
       else
-        []
+        nil
       end
     end
   end
