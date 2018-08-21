@@ -21,7 +21,7 @@ class Anagram
     #      x.reject
     #   end
     binding.pry
-    array.delete_if {|x| word.split("").sort != x.split("").sort}
+    array.reject {|x| word.split("").sort != x.split("").sort}
     # end
     # anagrams
   end
