@@ -33,8 +33,6 @@ def match(array)
   array.each do |x|
     if word.split("").sort == x.split("").sort
       anagrams << x
-    else
-       x.reject
     end
   end
   anagrams
