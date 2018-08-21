@@ -20,7 +20,7 @@ class Anagram
     #   else
     #      x.reject
     #   end
-    array.map.delete_if {|x| word.split("").sort != x.split("").sort}
+    array.delete_if {|x| word.split("").sort != x.split("").sort}
     # end
     # anagrams
   end
