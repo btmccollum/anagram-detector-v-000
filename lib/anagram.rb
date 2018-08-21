@@ -14,7 +14,7 @@ class Anagram
     # binding.pry
     array.any? do |x|
       if word.split("").sort == x.split("").sort
-        x
+        puts x
       else
         false
       end
