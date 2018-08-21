@@ -15,7 +15,8 @@ class Anagram
     # anagrams = []
     array.map do |x|
       if word.split("").sort == x.split("").sort
-        anagrams << x
+        # anagrams << x
+        x
       else
         nil
       end
