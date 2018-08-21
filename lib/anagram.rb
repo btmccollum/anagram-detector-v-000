@@ -20,7 +20,7 @@ class Anagram
     #   else
     #      x.reject
     #   end
-    binding.pry
+  
     array.reject {|x| word.split("").sort != x.split("").sort}
     # end
     # anagrams
