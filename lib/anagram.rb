@@ -19,8 +19,8 @@ class Anagram
   #   #   else
   #   #      x.reject
   #   #   end
-  #   
-  # 
+  #
+  #
   #   array.reject {|x| word.split("").sort != x.split("").sort}
   # end
 
@@ -37,9 +37,10 @@ def match(array)
        x.reject
     end
   end
+  binding.pry
   anagrams
 end
-  
+
 end
 binding.pry
   # array.reject {|x| word.split("").sort != x.split("").sort}
