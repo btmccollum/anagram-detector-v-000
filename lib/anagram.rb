@@ -12,7 +12,7 @@ class Anagram
     # binding.pry
     # if @word.split("").sort == array.each{|x| x.to_s.split("").sort}
     # binding.pry
-    anagrams = []
+    # anagrams = []
     array.map do |x|
       if word.split("").sort == x.split("").sort
         anagrams << x
@@ -20,6 +20,6 @@ class Anagram
         nil
       end
     end
-    anagrams
+    # anagrams
   end
 end
