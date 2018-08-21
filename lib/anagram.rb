@@ -11,9 +11,9 @@ class Anagram
   def match(array)
     # binding.pry
     # if @word.split("").sort == array.each{|x| x.to_s.split("").sort}
-    binding.pry
+    # binding.pry
     array.any? do |x|
-      if word.split("").sort == x.split("")
+      if word.split("").sort == x.split("").sort
         true
       else
         false
