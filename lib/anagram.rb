@@ -9,6 +9,7 @@ class Anagram
   end
 
   def match(array)
+    binding.pry
     if @word.split("").sort == match(array).split("").sort
       puts yay
     end
